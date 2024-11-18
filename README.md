@@ -11,3 +11,16 @@ Credit risk analysis is essential for financial institutions to assess the proba
 | Decision Tree       | 0.9683   |
 | KNN                 | 0.9681   |
 | XGBoost             | 0.9693   |
+
+| Model | Data | Accuracy | F1 Score | RMSE | ROC AUC |
+|-------|------|----------|-----------|------|---------|
+| Logistic Regression | Train | 95.74082 | 95.74031 | 0.20638 | 0.95741 |
+| Logistic Regression | Test | 94.66667 | 86.00746 | 0.23094 | 0.95924 |
+| Decision Tree | Train | 100.00000 | 100.00000 | 0.00000 | 1.00000 |
+| Decision Tree | Test | 96.83333 | 90.18608 | 0.17795 | 0.93039 |
+| Random Forest | Train | 100.00000 | 100.00000 | 0.00000 | 1.00000 |
+| Random Forest | Test | 96.50000 | 89.50839 | 0.18708 | 0.93781 |
+| XGBoost | Train | 99.42415 | 99.42414 | 0.07588 | 0.99424 |
+| XGBoost | Test | 96.93333 | 90.63899 | 0.17512 | 0.94202 |
+| KNN | Train | 99.36968 | 99.36966 | 0.07939 | 0.99370 |
+| KNN | Test | 96.81111 | 90.04948 | 0.17858 | 0.92595 |
